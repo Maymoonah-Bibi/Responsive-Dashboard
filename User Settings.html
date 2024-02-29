@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .sidebar {
+            background-color: #F1EFF1;
+            height: 100vh;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 10px;
+        }
+
+        .sidebar ul li i {
+            margin-right: 10px;
+        }
+
+        .bg-littlegray {
+            background-color: #F1EFF1;
+        }
+
+        .height {
+            height: 200px;
+        }
+
+        .card {
+            border-radius: 20px;
+        }
+
+        .custom-button {
+            border-radius: 10px;
+            background-color: #F1EFF1;
+            width: 100px;
+            /* border-color: black; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-2  bg-littlegray sidebar">
+                <img src="assets/images/Logo.png" alt="logo images" class="img img-fluid" width="150px" height="150px">
+
+                <ul class="nav-item">
+                    <li><a class="nav-link text-blue " href="#"><i class="fas fa-users" aria-hidden="true"></i>My
+                            Leagues</a>
+                    </li>
+                    <li><a class="nav-link text-blue" href="#"><i class="fas fa-home" aria-hidden="true"></i>Join
+                            League</a>
+                    </li>
+                    <li><a class="nav-link text-blue" href="#"><i class="fas fa-bars" aria-hidden="true"></i>Lineup
+                            Builder</a>
+                    </li>
+                    <li><a class="nav-link text-blue" href="#"><i class="fa fa-cog"
+                                aria-expanded="false"></i>Settings</a></li>
+
+                </ul>
+                <ul class="nav-item  bg-warning ">
+                    <li class=" position-absolute bottom-0  "><a class="nav-link text-black"><i class="fa fa-sign-out"
+                                aria-hidden="true"></i>Log
+                            Out</a></li>
+                </ul>
+            </nav>
+
+            <div class="col-lg-10 ">
+
+                <h1 class="text-black mt-4">User Settings</h1>
+                <p class="text-muted">Hoop’d</p>
+
+
+
+                <div class="container-fluid">
+
+                    <h3 class="text-black mt-4">Notifications</h3>
+                    <div class="row">
+
+                        <div class="col-lg-1 pt-2 mt-2">
+                            <button type="submit" class="btn custom-button">Yes</button>
+                        </div>
+
+                        <div class="col-lg-1 pt-2 mt-2">
+                            <button type="submit" class="btn custom-button">No</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid ">
+
+                    <h3 class="text-black mt-4">Delete League? </h3>
+                    <div class="row">
+
+                        <div class="col-lg-4 pt-2  mt-2">
+                            <div class="card  bg-littlegray d-flex justify-content-center">
+                                <div class="card-body">
+
+                                    <h6 class=" text-warning ">$100 buy in </h6>
+                                    <p class="text-blue fs-4"> Ball Don’t Lie </p>
+                                    <p class="text-black">12 teams - A league for fans of the Houston Rockets</p>
+                                </div>
+
+
+
+                            </div>
+                            <div class="container-fluid ">
+
+                                <div class="row">
+                                    <h3 class="text-black mt-4">Details </h3>
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control bg-littlegray"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                placeholder="Enter Adress">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputname" class="form-label">Name</label>
+                                            <input type="text" class="form-control bg-littlegray" id="exampleInputname "
+                                                placeholder="Enter name">
+                                        </div>
+
+                                    </form>
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                crossorigin="anonymous"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+                integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+                crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+<!-- <div class="row d-none" id="AlertSHow">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Danger Box</h5>
+                                <p class="card-text">
+                                    thi is testing alert
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
