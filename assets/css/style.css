@@ -1,0 +1,25 @@
+.bg-littlegray {
+    background-color: #F1EFF1;
+    height: 100vh;
+}
+
+.form-container {
+    /* background-color: #F1EFF1; */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 600px;
+}
+
+.custom-input {
+    background-color: #F1EFF1;
+
+    border: none;
+}
+
+.custom-button {
+    border-radius: 10px;
+    background-color: #F1EFF1;
+
+}
